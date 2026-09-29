@@ -1,0 +1,44 @@
+{
+  "rewrites": [
+    {
+      "source": "/talent-iq-master",
+      "destination": "https://talent-iq-master.vercel.app"
+    },
+    {
+      "source": "/talent-iq-master/:path*",
+      "destination": "https://talent-iq-master.vercel.app/:path*"
+    },
+    {
+      "source": "/research-hub-ai",
+      "destination": "https://research-hub-ai.vercel.app"
+    },
+    {
+      "source": "/research-hub-ai/:path*",
+      "destination": "https://research-hub-ai.vercel.app/:path*"
+    },
+    {
+      "source": "/synaptics-ai",
+      "destination": "https://synaptics-ai-frontend.vercel.app"
+    },
+    {
+      "source": "/synaptics-ai/:path*",
+      "destination": "https://synaptics-ai-frontend.vercel.app/:path*"
+    },
+    {
+      "source": "/promptify",
+      "destination": "https://promptify-kohl.vercel.app"
+    },
+    {
+      "source": "/promptify/:path*",
+      "destination": "https://promptify-kohl.vercel.app/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://my-portfolio-nwsf72nju-ayush-srivastavas-projects-b17ad465.vercel.app"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://my-portfolio-nwsf72nju-ayush-srivastavas-projects-b17ad465.vercel.app/:path*"
+    }
+  ]
+}
